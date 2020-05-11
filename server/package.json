@@ -1,0 +1,30 @@
+{
+  "name": "todoist-pern-server",
+  "version": "1.0.0",
+  "description": "server for todoist practice project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albert-24/todoist-pern.git"
+  },
+  "keywords": [
+    "todoist",
+    "pern"
+  ],
+  "author": "Albert Francisco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albert-24/todoist-pern/issues"
+  },
+  "homepage": "https://github.com/albert-24/todoist-pern#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "pg": "^8.0.3"
+  }
+}
